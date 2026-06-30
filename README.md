@@ -86,6 +86,8 @@ incremental (no se pierde el avance si se interrumpe).
 ---
 
 ## Estructura
+
+```
 .
 ├── main.py                 # Orquestador: pregunta, ejecuta y registra
 ├── pyproject.toml          # Metadatos y dependencias (estándar PEP 621)
@@ -99,9 +101,8 @@ incremental (no se pierde el avance si se interrumpe).
 │   ├── response_engine.py  # Genera respuestas lógicas por perfil
 │   └── form_filler.py      # Automatiza el navegador (Playwright)
 └── tests/
-└── test_logica.py      # Tests de la lógica (sin navegador)
-
----
+    └── test_logica.py      # Tests de la lógica (sin navegador)
+```
 
 ## Cómo funciona la "IA sencilla"
 
