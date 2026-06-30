@@ -1,0 +1,12 @@
+# ANTARES FORMS — Dependencias
+# Instalación:  pip install -r requirements.txt
+# Tras instalar: el navegador se usa desde el sistema
+#   (Chromium snap en /usr/bin/chromium-browser), no se descarga
+#   el Chromium interno de Playwright.
+
+playwright==1.60.0
+rich==15.0.0
+faker==40.23.0
+
+# Solo para desarrollo / tests (opcional):
+# pytest==8.3.4
